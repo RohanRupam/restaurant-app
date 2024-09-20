@@ -1,0 +1,15 @@
+{
+    "appName": "FlameGrill",
+    "taglinePart1": "FLAVORFUL",
+    "taglinePart2": "GRILLED",
+    "taglinePart3": "EXPERIENCE",
+    "restaurant": "GrillHouse",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "delete": "Delete",
+    "add": "Add",
+    "edit": "Edit",
+    "pageNotExistsTitle": "Lost in the Smoke!",
+    "pageNotExistsMessage": "It looks like the page you're looking for has been grilled away.",
+    "visitHomeBtn": "Return to Grillhouse"
+}

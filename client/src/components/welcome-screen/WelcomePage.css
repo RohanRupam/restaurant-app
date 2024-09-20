@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Bartender Serif";
+  src: local("Bartender Serif"),
+    url("../../fonts/bartender-bold-serif.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bartender SmCond Serif Pressed";
+  src: local("Bartender SmCond Serif Pressed"),
+    url("../../fonts/bartender-semicondensed-serif-pressed.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.welcome-container {
+  height: 100vh;
+  width: 100%;
+  background: url("https://t4.ftcdn.net/jpg/02/92/20/37/240_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg")
+    no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bartender SmCond Serif Pressed', sans-serif;
+}
+
+h1, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+.pushpin-icon, .clock-icon {
+  color: #ccc; /* Lighter icons to match the text tone */
+}
+
+.address, .hours {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.navbar, .footer {
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent dark background for visibility */
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.navbar ul li {
+  margin-left: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #DD7230;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #333;
+}
+
+.footer span {
+  color: #DD7230;
+}
+
+.typography-text {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  .address, .hours {
+    font-size: 1rem;
+  }
+}
